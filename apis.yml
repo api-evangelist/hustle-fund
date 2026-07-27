@@ -1,8 +1,24 @@
 aid: hustle-fund
 name: Hustle Fund
-description: 'Hustle Fund is a company surfaced as a portfolio company of foundry-group and added to the
-  API Evangelist network as a stub for enrichment. Sector: venture-capital. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Hustle Fund is a pre-seed and seed-stage venture capital firm that invests
+  in "hilariously early" software and technology startups, backing founders often within
+  one or two meetings. Beyond writing early checks through its funds and angel investor
+  network, Hustle Fund publishes tactical, BS-free educational content and newsletters
+  for founders (The Founder Playbook) and investors (Small Bets), and runs programs
+  that help operators learn to angel invest. It was surfaced in the API Evangelist
+  network as a portfolio company of foundry-group. Sector: venture-capital.'
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/6331a9a50eb8aa687c52dd23/6331a9a50eb8aaf6a952dde1_open%20graph_home.webp
 url: https://raw.githubusercontent.com/api-evangelist/hustle-fund/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +28,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Venture Capital
+- Pre-Seed
+- Seed
+- Startups
+- Angel Investing
+- Investors
+- Fund
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +45,30 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/hustle-fund-domain-security.yml
 - type: Website
   url: https://www.hustlefund.vc
+- type: Team
+  url: https://hustlefund.vc/team
+- type: Portfolio
+  url: https://hustlefund.vc/founders
+- type: Blog
+  url: https://hustlefund.vc/small-bets
+- type: Newsletter
+  url: https://hustlefund.vc/newsletters
+- type: TermsOfService
+  url: https://hustlefund.vc/disclaimers
+- type: PrivacyPolicy
+  url: https://hustlefund.vc/privacy
+- type: LinkedIn
+  url: https://www.linkedin.com/company/hustle-fund/
+- type: Twitter
+  url: https://twitter.com/hustlefundvc
+- type: YouTube
+  url: https://www.youtube.com/hustlefund
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
