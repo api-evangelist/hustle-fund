@@ -7,6 +7,17 @@ description: 'Hustle Fund is a pre-seed and seed-stage venture capital firm that
   for founders (The Founder Playbook) and investors (Small Bets), and runs programs
   that help operators learn to angel invest. It was surfaced in the API Evangelist
   network as a portfolio company of foundry-group. Sector: venture-capital.'
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
